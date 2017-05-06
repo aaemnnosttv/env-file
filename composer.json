@@ -1,0 +1,23 @@
+{
+    "name": "aaemnnosttv/env-file",
+    "description": "Library for interacting with an environment file, such as a .env file.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evan Mattson",
+            "email": "me@aaemnnost.tv"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EnvFile\\": "src"
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
