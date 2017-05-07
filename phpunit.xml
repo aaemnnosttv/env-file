@@ -7,12 +7,13 @@
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTestsThatDoNotTestAnything="true"
          beStrictAboutTodoAnnotatedTests="true"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
          verbose="true">
-    <testsuite name="features">
-        <directory>tests/features</directory>
-    </testsuite>
     <testsuite name="unit">
-        <directory>tests/unit</directory>
+        <directory suffix=".php">tests/unit</directory>
     </testsuite>
 
     <filter>
